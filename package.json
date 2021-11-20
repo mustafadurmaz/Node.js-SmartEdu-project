@@ -1,0 +1,31 @@
+{
+  "name": "node.js-smartedu-project",
+  "version": "1.0.0",
+  "description": "Education Portal",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafadurmaz/Node.js-SmartEdu-project.git"
+  },
+  "keywords": [
+    "education",
+    "portal",
+    "node.js"
+  ],
+  "author": "Mustafa Durmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafadurmaz/Node.js-SmartEdu-project/issues"
+  },
+  "homepage": "https://github.com/mustafadurmaz/Node.js-SmartEdu-project#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

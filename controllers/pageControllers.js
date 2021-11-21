@@ -10,3 +10,4 @@ exports.getAboutPage = (req, res) => {
     page_name: "about",
   });
 };
+

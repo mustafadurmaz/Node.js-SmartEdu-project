@@ -25,6 +25,14 @@
 
                             </div>
                         
+                        } 
+
+                        <% } else if(flashMessages.error) {  %>
+                            <div class="alert alert-danger">
+                                <%= flashMessages.error %>
+
+                            </div>
+
                         <% } %>
 
                     <% } %>

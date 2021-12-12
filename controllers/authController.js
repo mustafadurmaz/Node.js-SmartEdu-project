@@ -11,6 +11,8 @@ exports.createUser = async (req, res) => {
   } catch (error) {
     const errors = validationResult(req);
     console.log(errors.array()[0].msg);
+    req.flash("error", `${errors.array()[0].msg}`);
+    res.status(400).redirect("/redirect");
   }
 };
 
